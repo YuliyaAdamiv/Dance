@@ -166,3 +166,43 @@ body {
     display: inline-block;
     margin: 0 9px;
 }
+.head{
+    border: 3px dashed purple;
+}
+.song{
+    border: 3px solid purple;
+}
+.line{
+    border: 3px dotted purple;
+}
+.visit{
+    border: 3px double purple;
+}
+.groove{
+    border: 3px groove purple;
+}
+.ridge{
+    border: 3px ridge purple;
+}
+.inset{
+    border:3px inset purple;
+}
+.outset{
+    border:3px outset purple;
+}
+.first_p{
+background-color: #fd8407;
+color: aliceblue;
+}
+.second_p{
+background-color: aqua;
+color: #1b1b1b;
+}
+.third_p{
+background-color: rgb(52, 7, 253);
+color: aliceblue;
+}
+.fourth_p{
+background-color: rgb(253, 7, 204);
+color: #1b1b1b;
+}
