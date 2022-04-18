@@ -206,3 +206,27 @@ color: aliceblue;
 background-color: rgb(253, 7, 204);
 color: #1b1b1b;
 }
+h1 {
+    text-align: center;
+  }
+  /* используем псевдокласс :is()  */
+  article:is(.bg) h2, article:is(.bg) p {
+    color: #fff;
+  }
+  .bg {
+    background: url(https://source.unsplash.com/x-XwnC7FgFM/1600x700) no-repeat center/cover gray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  /* без селектора :is() */
+  article {
+    color: #666;
+    padding: 20px 5%;
+  }
+  p::before {
+    content: "❤️ ";
+  }
+  
+  p::after {
+    content: " ❤️";
+  }
