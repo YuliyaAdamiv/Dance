@@ -603,6 +603,77 @@ All again<br /></p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum convallis suscipit. Nam vel viverra mauris. Nunc venenatis sollicitudin imperdiet. Vivamus ut blandit sem. Pellentesque sodales efficitur enim in maximus. Donec ullamcorper nec sapien nec convallis. Suspendisse maximus fringilla nisl nec rhoncus.
     </p>
   </article>
-  <p>Have a good day!</p>
+  <p style="text-align:center;">Have a good day!</p>
+  <iframe width="1360" height="815" src="https://www.youtube.com/embed/3Vwko5HhfNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <section class='form-section' id='help'>
+    <div class="form-img">
+        <img class="form-main" src="img/6.webp" alt="image">
+      
+    </div>
+  <div class="form">
+    <p class="help">Допомога</p>
+    <h3>Запитуйте у
+        <span class="color-text">професіоналів</span>
+    </h3>
+    <form id="basic-form" method="post">
+        <fieldset class="form-group has-feedback">
+            <legend>Iм'я</legend>
+            <input type="text" id="name" name="name" class="form-control " required onkeypress=" myFunction(event)">
+        </fieldset>
+        <img  style="display: none;"class="has-success" src="https://img.icons8.com/external-becris-lineal-becris/20/26e07f/external-check-mintab-for-ios-becris-lineal-becris-1.png">
+        <fieldset class="phone_mask form-group has-feedback">
+            <legend>Телефон</legend>
+            <input type="tel" id="phone" name="phone" class="form-control" placeholder="+38(0__)___-__-__" required onkeypress=" myFunction(event)">
+        </fieldset>
+        <img style="display: none;" class="has-success" src="https://img.icons8.com/external-becris-lineal-becris/20/26e07f/external-check-mintab-for-ios-becris-lineal-becris-1.png">
+        <fieldset class="form-group has-feedback">
+            <legend>Email</legend>
+            <input type="email" placeholder="biznes@gmal.com" id="email" name="email" class="form-control " required onkeypress=" myFunction(event)">
+        </fieldset>
+        <img style="display: none;" class="has-success" src="https://img.icons8.com/external-becris-lineal-becris/20/26e07f/external-check-mintab-for-ios-becris-lineal-becris-1.png">
+        <fieldset class="form-group has-feedback  ">
+                <select name="test" data-multiple="true" data-replace="jselect" data-placeholder="Оберіть пункт" data-state="">
+                    <option value="1" >Пункт 1</option>
+                    <option value="2" >Пункт 2</option>
+                    <option value="3" >Пункт 3</option>
+                    <option value="4" >Пункт 4</option>
+            </select>
+            
+        </fieldset>
+        <div class="rows">
+            <div class="row">
+                <div class="checkbox">
+                    <input type="checkbox" id="cb1" checked="checked"> <label for="cb1">Checkbox 1</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="cb2" checked="checked"> <label for="cb2">Checkbox 2</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="cb3" > <label for="cb3">Checkbox 3</label>
+                            </div>
+            </div>
+            <div class="row">
+                <div class="checkbox">
+                    <input id="rb1" type="radio" name="rb" value="rb1"> <label for="rb1">Radiobton 1</label>
+                    </div>
+                    <div class="checkbox">
+                        <input id="rb2" type="radio" name="rb" value="rb2" checked="checked"> <label for="rb2">Radiobton 1</label>
+                        </div>
+                        <div class="checkbox">
+                            <input id="rb3" type="radio" name="rb" value="rb3"> <label for="rb3">Radiobton 1</label>
+                            </div>
+                    
+               
+            </div>
+        </div>
+        <textarea id="message" name="message" class="message" placeholder="Коментар"></textarea>
+        <div class="container">
+            <div data-toggle="modal" data-target="#modal-1">
+                <button class="btn" >Відправити дані</button>
+            </div>
+        </div>
+    </form>
+</div>
+</section>
 </body>
 </html>
